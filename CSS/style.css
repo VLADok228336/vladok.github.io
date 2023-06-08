@@ -1,0 +1,77 @@
+*{
+    margin: auto;
+
+}
+html{
+    background-image: url(/IMG/bg.jpg);
+}
+nav{
+    background: royalblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+}
+.menu{
+    transition: 1s;
+    text-align: left;
+    padding-left: 50px;
+    cursor:pointer;
+}
+.menu:hover{
+    background: peru;
+    transform: scale(1.1)
+    
+}
+h1{
+    text-align: center;
+    font-family: Space;
+}
+iframe{
+    text-align: center;
+}
+footer{
+    background: linear-gradient(pink, darkgrey);
+}
+cite{
+    font-size: 30px;
+}
+p{
+    font-size: 35px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+
+footer{
+    background-size: cover;
+    color: white;
+    padding: 100px 0px;
+}
+.cards{
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    display: flex;
+}
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 0px 2px 7px 0px #9e90ff;
+    margin: left;
+    text-align: center;
+}
+.card-img{
+    width: 160px;
+}
+@font-face {
+    font-family: Space;
+    src: url(/CSS/Fonts/SpaceGrotesk-Bold.ttf);
+}
+
+
+
+
+

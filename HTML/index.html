@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Main page</title>
+    <style>
+        .galleria{ width: 700px; height: 400px; background: #000 }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="galleria/galleria-1.4.min.js"></script>
+    <script>
+        Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+        Galleria.run('.cards');
+</script>
+</head>
+
+<body link="black" alink="white" vlink="black">
+    <header>
+        <nav>
+            <ul>
+                <li class="menu">Главная <br></li>
+                <a href="/HTML/about.html" target="_self">
+                    <li class="menu">О себе <br></li>
+                </a>
+                <a href="/HTML/maozedong.html" target="_self">
+                    <li class="menu">Пропаганда Мао Цзедуна</li>
+                </a>
+                <a href="/HTML/reg.html">
+                    <li class="menu">Зарегистрироваться</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Главная страница</h1>
+        <h2>Цитата дня</h2>
+        <cite>Mao Zedong is the best leader of all times and peoples </cite> <br>
+        <p>- Vlad Chertkov</p> <br>
+        <div class="cards">
+            <div class="card">
+                <h3>Моя кошка</h3> <br>
+                <img class="card-img" src="/IMG/DSCN0166.JPG" alt="Cat">
+            </div>
+            <div class="card">
+                <h3>Милая белка</h3> <br>
+                <img class="card-img" src="/IMG/DSCN0315.JPG" alt="Cat">
+            </div>
+            <div class="card">
+                <h3>Милый котик из Подмосковья</h3> <br>
+                <img class="card-img" src="/IMG/DSCN0531.JPG" alt="Cat"><br>
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        типа &copy; Влад Чертков 2015 - 2022 <br> <br>
+        e-mail - chertkov_vlad@rambler.ru
+        <a href="https://www.youtube.com/channel/UC5nS3-mqd9yB3h0MpSYMf2w"><img src="/IMG/youtube.png" alt="youtube"></a> 
+        <a href="#"><img src="/IMG/instagram.png" alt="instagram"></a>
+    </footer>
+</body>
+
+</html>
